@@ -6,7 +6,7 @@ uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 lower = {}
 upper = {}
 for x in range(len(lowercase)):
-    lower[lowercase[x]] = x+1
+    lower[lowercase[x]] = x + 1
     upper[uppercase[x]] = x + 27
 
 priority_dict = {**lower, **upper}
